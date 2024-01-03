@@ -1,6 +1,15 @@
 # Neural Network Model Simplification
 An alternate approach to simplifying neural network models
 ---
+## Highlights
+This project was conducted as a long-term collaboration with the US Military on a multifaceted undertaking on cybersecurity. My function on the project was to investigate how deep learning models operate under-the-hood in terms of node patterns while training occurs. Below are snippets of a publication that came out as a result of project activities.
+
+The following tools and analysis were used in this project:
+- R for inferential statistics and visualizations
+- Python and Tensorflow for AI
+- SQL Server for data storage
+- Analysis of variance was the main analytical approach
+
 ## Summary
 
 The increasing complexity of artificial intelligence models has given rise to extensive work toward understanding the inner workings of neural networks. Much of that work, however, has focused on manipulating input data feeding the network to assess their effects on network output or pruning model components after the often-extensive time-consuming training. It is shown in this repository that model simplification can benefit from investigating the network node, the most fundamental unit of neural networks, during training. Whereas studies on simplification of model structure have mostly required repeated model training, assessing evolving trends in node weights toward model stabilization may circumvent that requirement. Node magnitude stability, defined as the number of epochs where node weights retained their magnitude within a tolerance value, was the central construct used herein. To test evolving trends, a manipulated, a contrived, and two life science data sets were used. Data sets were run on convolutional and deep neural network models. Findings indicated that neural network progress toward stability differed by model, where CNNs tended to add influential nodes early during training. The magnitude stability approach of this study showed superior time efficiencies, which may assist in XAI research toward producing more transparent models and clear outcomes to technical and non-technical audiences. 
